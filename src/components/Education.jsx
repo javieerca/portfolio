@@ -1,5 +1,12 @@
 import React from "react";
 
+import javaLogo from "../assets/img/java.png";
+import htmlLogo from "../assets/img/htmlColor.png";
+import sqlLogo from "../assets/img/sqlColor.png";
+import androidLogo from "../assets/img/androidColor.png";
+import jsLogo from "../assets/img/jsColor.png";
+import csharpLogo from "../assets/img/c.png";
+
 const Education = () => {
     const academicData = [
         {
@@ -21,12 +28,12 @@ const Education = () => {
     ];
 
     const skillsData = [
-        { name: "Java", level: "Avanzado", img: "/assets/img/java.png" },
-        { name: "HTML y CSS", level: "Avanzado", img: "/assets/img/htmlColor.png" },
-        { name: "SQL", level: "Medio", img: "/assets/img/sqlColor.png" },
-        { name: "Kotlin", level: "Avanzado", img: "/assets/img/androidColor.png" },
-        { name: "JavaScript", level: "Avanzado", img: "/assets/img/jsColor.png" },
-        { name: "C# (.NET)", level: "Avanzado", img: "/assets/img/c.png" },
+        { name: "Java", level: "Avanzado", img: javaLogo },
+        { name: "HTML y CSS", level: "Avanzado", img: htmlLogo },
+        { name: "SQL", level: "Medio", img: sqlLogo },
+        { name: "Kotlin", level: "Avanzado", img: androidLogo },
+        { name: "JavaScript", level: "Avanzado", img: jsLogo },
+        { name: "C# (.NET)", level: "Avanzado", img: csharpLogo },
     ];
 
     return (
