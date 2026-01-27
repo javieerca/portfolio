@@ -1,5 +1,4 @@
 import React from "react";
-import fotoAboutMe from "../assets/img/foto_about_me.jpg";
 
 const AboutMe = () => {
     return (
@@ -10,7 +9,7 @@ const AboutMe = () => {
                     <div className="row align-items-center g-4 pt-5 flex-grow-1">
                         <div className="col-12 col-md-5 text-center mb-4 mb-md-0">
                             <img
-                                src={fotoAboutMe}
+                                src="/portfolio/assets/img/foto_about_me.jpg"
                                 alt="mi_foto"
                                 className="img-fluid m-auto border rounded"
                                 style={{ maxHeight: "500px" }}
