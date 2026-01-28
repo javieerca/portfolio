@@ -18,6 +18,7 @@ function App() {
             <div className="color_fondo_secundario">
                 <AboutMe />
                 <Experience />
+                <hr className="mb-5" />
                 <Education />
             </div>
         </div>
