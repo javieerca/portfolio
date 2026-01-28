@@ -10,6 +10,7 @@ const Navbar = () => {
                 { id: "about_me", name: "about" },
                 { id: "experiencia", name: "experience" },
                 { id: "formacion", name: "education" },
+                { id: "contacto", name: "contact" },
             ];
 
             // Default to 'home' if at the very top
@@ -120,7 +121,11 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav-item navbar-item-hover">
-                            <a className="nav-link" href="#">
+                            <a
+                                className={getLinkClass("contact")}
+                                onClick={() => scrollToSection("contacto")}
+                                style={{ cursor: "pointer" }}
+                            >
                                 Contacto
                             </a>
                         </li>

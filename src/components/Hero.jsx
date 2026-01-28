@@ -35,12 +35,18 @@ const Hero = () => {
                                     onClick={() =>
                                         document.getElementById("about_me")?.scrollIntoView({ behavior: "smooth" })
                                     }
-                                    className="btn btn-neon rounded-pill text-decoration-none"
+                                    className="btn btn-neon rounded text-decoration-none"
                                     style={{ cursor: "pointer" }}
                                 >
                                     <UserIcon width={24} height={24} /> Conóceme
                                 </a>
-                                <a href="#contacto" className="btn btn-neon rounded-pill text-decoration-none">
+                                <a
+                                    onClick={() =>
+                                        document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })
+                                    }
+                                    className="btn btn-neon rounded text-decoration-none"
+                                    style={{ cursor: "pointer" }}
+                                >
                                     <MailIcon width={36} height={36} /> Contáctame
                                 </a>
                             </div>

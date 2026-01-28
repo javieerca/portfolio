@@ -1,1 +1,6 @@
 /* CSS reset for App */
+
+.hover-cyan:hover {
+    color: #42d3c4 !important;
+    transition: color 0.3s ease;
+}

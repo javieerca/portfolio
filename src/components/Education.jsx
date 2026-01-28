@@ -28,7 +28,7 @@ const Education = () => {
         { name: "Node.js", level: "Avanzado", img: "/portfolio/assets/img/nodejsColor.png" },
         { name: "React", level: "Medio", img: "/portfolio/assets/img/reactColor.png" },
         { name: "Angular", level: "Básico", img: "/portfolio/assets/img/angularColor.png" },
-        { name: "C# (.NET)", level: "Avanzado", img: "/portfolio/assets/img/c.png" },
+        { name: "C# (.NET)", level: "Medio", img: "/portfolio/assets/img/c.png" },
         { name: "Flutter", level: "Medio", img: "/portfolio/assets/img/flutterColor.png" },
         { name: "Git", level: "Avanzado", img: "/portfolio/assets/img/gitColor.png" },
         { name: "SQL", level: "Medio", img: "/portfolio/assets/img/sqlColor.png" },
