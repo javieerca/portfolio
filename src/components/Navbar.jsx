@@ -82,7 +82,7 @@ const Navbar = () => {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto border rounded-pill fondo_claro align-items-center">
+                    <ul className="navbar-nav ms-auto border rounded fondo_claro align-items-center">
                         <li className="nav-item navbar-item-hover">
                             <a
                                 className={getLinkClass("home")}

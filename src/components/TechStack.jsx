@@ -5,7 +5,7 @@ const TechStack = () => {
         <section id="herramientas">
             <div className="">
                 <hr />
-                <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mx-3 my-3 herramientas_lista">
+                <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mx-3  herramientas_lista">
                     <p className="m-0 imagen_aumenta">JAVA</p>
                     <p className="m-0">/</p>
                     <p className="m-0 imagen_aumenta">HTML-5</p>

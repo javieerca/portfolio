@@ -5,6 +5,10 @@
     color-scheme: light dark;
 }
 
+html {
+    scroll-padding-top: 100px;
+}
+
 body {
     margin: 0;
     min-width: 320px;
@@ -71,7 +75,7 @@ body {
 
 .navbar-item-hover a {
     padding: 15px 50px !important;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 .navbar-item-hover a:hover {
@@ -178,4 +182,23 @@ body {
     visibility: visible;
     opacity: 1;
     transform: translateX(-50%) translateY(0);
+}
+
+/* Responsive About Me Image */
+.about-me-img {
+    max-height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .about-me-img {
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-me-img {
+        max-height: 500px;
+    }
 }

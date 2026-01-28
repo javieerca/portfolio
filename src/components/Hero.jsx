@@ -6,7 +6,7 @@ import TechIcon from "./TechIcon";
 
 const Hero = () => {
     return (
-        <section id="presentacion" className="pb-4 d-flex flex-column" style={{ minHeight: "calc(100vh - 90px)" }}>
+        <section id="presentacion" className=" d-flex flex-column" style={{ minHeight: "calc(100vh - 90px)" }}>
             <div className="container h-100 d-flex flex-column justify-content-center flex-grow-1">
                 <div className="row align-items-center justify-content-center flex-grow-1 pt-3 mt-3 pt-lg-5 mt-lg-5 gap-3 gap-lg-5">
                     <div className="col-12 col-lg-5 text-center">
